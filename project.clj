@@ -7,7 +7,8 @@
                  [ring/ring "1.11.0"]
                  [ring/ring-defaults "0.4.0"]
                  [compojure "1.7.1"]]
+  :java-source-paths ["java"]
   :repl-options {:init-ns htmx-clojure-hello-world.core}
-  :main htmx-clojure-hello-world.webview
+  :main htmx-clojure-hello-world.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all}})

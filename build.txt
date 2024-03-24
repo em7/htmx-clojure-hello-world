@@ -1,0 +1,11 @@
+CLOJURE
+jdeps --print-module-deps --ignore-missing-deps .\target\uberjar\htmx-clojure-hello-world-0.1.0-SNAPSHOT-standalone.jar
+
+PYTHON see pywebview
+
+Python runs uberjar with java from jre-minimal
+
+prints this:
+java.base,java.desktop,java.instrument,java.management,java.naming,java.security.jgss,java.sql,jdk.unsupported
+
+

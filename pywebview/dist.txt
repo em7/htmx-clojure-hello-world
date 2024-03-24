@@ -1,0 +1,6 @@
+ip install pyinstaller
+pyinstaller --onefile --noconsole htmx-hello-world.py
+from this directory
+
+Run with .\pywebview\dist\htmx-hello-world.exe
+from directory above (..)
